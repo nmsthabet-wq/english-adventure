@@ -1,1 +1,1 @@
-window.ENGLISH_ADVENTURE_CONFIG = {supabaseUrl:'',supabaseAnonKey:''};
+window.HUB_CONFIG={supabaseUrl:'',supabaseAnonKey:''};

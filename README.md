@@ -1,43 +1,26 @@
-# English Adventure — Grade 1 / Term 1
+# English Learning Hub — V3 preview
 
-Starter website for مدرسة كدرة رياض والحلقة الاولى والثانية والثالثة بنات
-Teacher: Noor Mohamed AlQaydi
+Grades 1 & 2, Term 1 (2026–2027). Original supplied book-cover images and Meethaq group artwork are included under `assets/`.
 
-## Included
-- 9 curriculum units (curriculum.json)
-- Vocabulary station with Arabic meanings, provisional emoji illustrations and browser text-to-speech
-- 3 sequential 10-question levels per unit; 7/10 to unlock the next
-- Question pool assembled from curriculum vocabulary, letters, meanings and approved sample sentences; shuffled questions and answer choices
-- Local browser progress; optional Supabase anonymous authentication and cloud progress
-- Teacher email/password login and protected CSV progress dashboard
-- Printable bilingual participation certificate (browser Print → Save as PDF)
+## Deploy on the existing GitHub Pages site
+1. Unzip the archive.
+2. Open `https://github.com/nmsthabet-wq/english-adventure` → **Add file → Upload files**.
+3. Upload the **contents** of the unzipped folder, including the `assets` directory, to the repository root. Replace `index.html`, `app.js`, `style.css`, and `config.js`. `grade1.json` and `grade2.json` are new files.
+4. Commit changes. Wait for the Pages deployment; reload with Ctrl+Shift+R.
+5. Do not delete the previous `curriculum.json` or `supabase-schema.sql` until cloud migration is planned.
 
-## Run locally
-Use a local HTTP server, not file://.
-`python -m http.server 8000`
-Open `http://localhost:8000`.
+## Important limitations (do not use for real student records yet)
+- Student names, scores, and progress in this preview are stored **only in the browser**. They do not sync across devices and can be cleared. Use fictional student names for testing.
+- The old Grade 1 Supabase schema does **not** support Grade 2 identifiers or the 100-point tests. The schema is intentionally not auto-migrated. Do not assume the cloud is connected.
+- Visitor count is a dash until a privacy-reviewed counter is configured. Never use fabricated visitor counts.
+- The 100-mark tests are formative multiple-choice practice (25 questions × 4 marks); they do **not** yet measure independent writing or human-graded dictation. The exact curriculum mapping and assessment rubric need teacher review before official use.
+- Where a word lacks a verified illustration, the interface displays the written word instead of a misleading emoji. Custom word images are still needed for a complete illustrated bank.
+- Browser speech synthesis is used for audio and requires a device with English voice support.
+- Test models draw randomized questions from the same curriculum bank; questions are unique within each attempt, but separate tests may overlap. Distinct non-overlapping fixed forms require a larger reviewed bank.
+- Progress is tracked per browser/grade/unit, not securely per individual student. The local profile does not authenticate users.
 
-## Supabase setup
-1. Create a Supabase project. In Authentication > Providers, enable **Anonymous Sign-ins**. Configure email/password authentication for the teacher.
-2. Run `supabase-schema.sql` in SQL Editor. If running the schema more than once, review existing policies first.
-3. Copy Project URL and **publishable/anon key** (never the service_role/secret key) into `config.js`.
-4. Create a teacher account through Supabase Authentication, then insert its auth user UUID in the `teachers` table using SQL Editor. Do not expose teacher email/password in source code.
-5. Use separate test accounts to confirm students cannot see other students' records.
+## Quick local test
+From this folder run `python -m http.server 8000`, then visit `http://localhost:8000`.
 
-## GitHub Pages
-1. Create a GitHub repository, upload all files from this folder to its root.
-2. Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.
-3. Wait for the published HTTPS URL and test it. The application is a static client with Supabase as its backend.
-
-## Important limitations / next steps before school-wide deployment
-- This is a **functional starter**, not a completed school production system. Official Meethaq artwork is not included: replace emoji with licensed/approved image assets supplied by the school.
-- The image cards currently use emoji placeholders; replace with clear reviewed illustrations for reliable picture-based questions.
-- Question bank sizes vary with each unit; some distractors and sentence-ordering tasks need teacher review. No guarantee of 30 distinct high-quality questions per level from the provided limited vocabulary.
-- Teacher content editing, question import, visit counter, GA4 analytics, unique certificate IDs, server-side certificate issuing, cross-device student login and a secure student identity recovery mechanism are **not implemented**.
-- Anonymous accounts are bound to a browser session; deleting site storage or changing devices can lose access to cloud progress. A student name and section are **not** secure identifiers.
-- Progress is checked on the client and can be manipulated by a technical user; use a server-side assessment service for high-stakes scoring.
-- For minors, obtain school privacy approval and define retention/deletion policies before collecting personal data. Avoid including student names in GA4.
-- Do not publish real student data or private school assets in a public GitHub repository.
-
-## Content note
-The 9 units follow the user's visual unit numbering. The SOW PDF labels the final three topics as weeks 8, 9 and 10. Phonics and sight words are from the supplied SOW, with a simplified phonics list in this starter.
+## Before launch to children
+Implement secure authenticated student identities and teacher access; update Supabase schema with `grade` and assessment tables and row-level security; validate content, images, and scoring; obtain school approval for collecting student data and analytics. Never put a Supabase service-role key in browser code.

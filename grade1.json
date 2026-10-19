@@ -1,0 +1,580 @@
+[
+  {
+    "id": 1,
+    "title": "First School Days",
+    "words": [
+      {
+        "en": "school",
+        "ar": "مدرسة",
+        "emoji": "🏫"
+      },
+      {
+        "en": "name",
+        "ar": "اسم",
+        "emoji": "🏷️"
+      },
+      {
+        "en": "hello",
+        "ar": "مرحباً",
+        "emoji": "👋"
+      },
+      {
+        "en": "bye",
+        "ar": "مع السلامة",
+        "emoji": "👋"
+      },
+      {
+        "en": "hi",
+        "ar": "أهلاً",
+        "emoji": "🙋"
+      },
+      {
+        "en": "teacher",
+        "ar": "معلم",
+        "emoji": "👩‍🏫"
+      },
+      {
+        "en": "goodbye",
+        "ar": "وداعاً",
+        "emoji": "👋"
+      }
+    ],
+    "phonics": [
+      "s",
+      "a",
+      "t",
+      "p"
+    ],
+    "sight": [
+      "a",
+      "at",
+      "as"
+    ],
+    "sentences": [
+      "I am happy.",
+      "My name is Sara."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Our Classroom",
+    "words": [
+      {
+        "en": "desk",
+        "ar": "مكتب",
+        "emoji": "🪑"
+      },
+      {
+        "en": "chair",
+        "ar": "كرسي",
+        "emoji": "🪑"
+      },
+      {
+        "en": "board",
+        "ar": "سبورة",
+        "emoji": "🟩"
+      },
+      {
+        "en": "door",
+        "ar": "باب",
+        "emoji": "🚪"
+      },
+      {
+        "en": "window",
+        "ar": "نافذة",
+        "emoji": "🪟"
+      },
+      {
+        "en": "classroom",
+        "ar": "فصل دراسي",
+        "emoji": "🏫"
+      }
+    ],
+    "phonics": [
+      "i",
+      "n"
+    ],
+    "sight": [
+      "in",
+      "it",
+      "is",
+      "I",
+      "an"
+    ],
+    "sentences": [
+      "This is a chair.",
+      "This is the door."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "What is in My Bag?",
+    "words": [
+      {
+        "en": "bag",
+        "ar": "حقيبة",
+        "emoji": "🎒"
+      },
+      {
+        "en": "book",
+        "ar": "كتاب",
+        "emoji": "📕"
+      },
+      {
+        "en": "pen",
+        "ar": "قلم",
+        "emoji": "🖊️"
+      },
+      {
+        "en": "pencil",
+        "ar": "قلم رصاص",
+        "emoji": "✏️"
+      },
+      {
+        "en": "ruler",
+        "ar": "مسطرة",
+        "emoji": "📏"
+      },
+      {
+        "en": "eraser",
+        "ar": "ممحاة",
+        "emoji": "🧽"
+      },
+      {
+        "en": "red",
+        "ar": "أحمر",
+        "emoji": "🔴"
+      },
+      {
+        "en": "blue",
+        "ar": "أزرق",
+        "emoji": "🔵"
+      }
+    ],
+    "phonics": [
+      "m",
+      "d",
+      "g"
+    ],
+    "sight": [
+      "and",
+      "am",
+      "dad"
+    ],
+    "sentences": [
+      "This is my book.",
+      "It is red."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Learning Together",
+    "words": [
+      {
+        "en": "look",
+        "ar": "انظر",
+        "emoji": "👀"
+      },
+      {
+        "en": "listen",
+        "ar": "استمع",
+        "emoji": "👂"
+      },
+      {
+        "en": "read",
+        "ar": "اقرأ",
+        "emoji": "📖"
+      },
+      {
+        "en": "write",
+        "ar": "اكتب",
+        "emoji": "✍️"
+      },
+      {
+        "en": "draw",
+        "ar": "ارسم",
+        "emoji": "🎨"
+      },
+      {
+        "en": "please",
+        "ar": "من فضلك",
+        "emoji": "🙏"
+      },
+      {
+        "en": "yellow",
+        "ar": "أصفر",
+        "emoji": "🟡"
+      },
+      {
+        "en": "green",
+        "ar": "أخضر",
+        "emoji": "🟢"
+      }
+    ],
+    "phonics": [
+      "o",
+      "c",
+      "k"
+    ],
+    "sight": [
+      "to",
+      "into",
+      "go",
+      "no",
+      "the"
+    ],
+    "sentences": [
+      "Draw a cat.",
+      "Look at the book."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "How Many?",
+    "words": [
+      {
+        "en": "one",
+        "ar": "واحد",
+        "emoji": "1️⃣"
+      },
+      {
+        "en": "two",
+        "ar": "اثنان",
+        "emoji": "2️⃣"
+      },
+      {
+        "en": "three",
+        "ar": "ثلاثة",
+        "emoji": "3️⃣"
+      },
+      {
+        "en": "four",
+        "ar": "أربعة",
+        "emoji": "4️⃣"
+      },
+      {
+        "en": "five",
+        "ar": "خمسة",
+        "emoji": "5️⃣"
+      },
+      {
+        "en": "count",
+        "ar": "يعد",
+        "emoji": "🔢"
+      },
+      {
+        "en": "orange",
+        "ar": "برتقالي",
+        "emoji": "🟠"
+      },
+      {
+        "en": "purple",
+        "ar": "بنفسجي",
+        "emoji": "🟣"
+      }
+    ],
+    "phonics": [
+      "e",
+      "u",
+      "r"
+    ],
+    "sight": [
+      "get",
+      "dog",
+      "can",
+      "got",
+      "on",
+      "not",
+      "cat"
+    ],
+    "sentences": [
+      "I can see three cats.",
+      "There is one hat."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "My Face",
+    "words": [
+      {
+        "en": "face",
+        "ar": "وجه",
+        "emoji": "🙂"
+      },
+      {
+        "en": "head",
+        "ar": "رأس",
+        "emoji": "👤"
+      },
+      {
+        "en": "eyes",
+        "ar": "عينان",
+        "emoji": "👀"
+      },
+      {
+        "en": "ears",
+        "ar": "أذنان",
+        "emoji": "👂"
+      },
+      {
+        "en": "nose",
+        "ar": "أنف",
+        "emoji": "👃"
+      },
+      {
+        "en": "mouth",
+        "ar": "فم",
+        "emoji": "👄"
+      },
+      {
+        "en": "touch",
+        "ar": "يلمس",
+        "emoji": "👆"
+      },
+      {
+        "en": "point",
+        "ar": "يشير",
+        "emoji": "👉"
+      },
+      {
+        "en": "black",
+        "ar": "أسود",
+        "emoji": "⚫"
+      },
+      {
+        "en": "white",
+        "ar": "أبيض",
+        "emoji": "⚪"
+      }
+    ],
+    "phonics": [
+      "h",
+      "b"
+    ],
+    "sight": [
+      "up",
+      "mum",
+      "put",
+      "had",
+      "oh",
+      "him",
+      "his",
+      "big",
+      "has"
+    ],
+    "sentences": [
+      "This is my nose.",
+      "Touch your head."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Move Your Body",
+    "words": [
+      {
+        "en": "run",
+        "ar": "يجري",
+        "emoji": "🏃"
+      },
+      {
+        "en": "jump",
+        "ar": "يقفز",
+        "emoji": "🤾"
+      },
+      {
+        "en": "walk",
+        "ar": "يمشي",
+        "emoji": "🚶"
+      },
+      {
+        "en": "clap",
+        "ar": "يصفق",
+        "emoji": "👏"
+      },
+      {
+        "en": "arm",
+        "ar": "ذراع",
+        "emoji": "💪"
+      },
+      {
+        "en": "hand",
+        "ar": "يد",
+        "emoji": "✋"
+      },
+      {
+        "en": "leg",
+        "ar": "ساق",
+        "emoji": "🦵"
+      },
+      {
+        "en": "foot",
+        "ar": "قدم",
+        "emoji": "🦶"
+      },
+      {
+        "en": "pink",
+        "ar": "وردي",
+        "emoji": "🩷"
+      },
+      {
+        "en": "brown",
+        "ar": "بني",
+        "emoji": "🟤"
+      }
+    ],
+    "phonics": [
+      "f",
+      "l",
+      "s"
+    ],
+    "sight": [
+      "he",
+      "she",
+      "me",
+      "we",
+      "be",
+      "of"
+    ],
+    "sentences": [
+      "I can jump.",
+      "I can run fast."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "My Feelings",
+    "words": [
+      {
+        "en": "feelings",
+        "ar": "مشاعر",
+        "emoji": "💗"
+      },
+      {
+        "en": "happy",
+        "ar": "سعيد",
+        "emoji": "😄"
+      },
+      {
+        "en": "sad",
+        "ar": "حزين",
+        "emoji": "😢"
+      },
+      {
+        "en": "angry",
+        "ar": "غاضب",
+        "emoji": "😠"
+      },
+      {
+        "en": "scared",
+        "ar": "خائف",
+        "emoji": "😨"
+      },
+      {
+        "en": "sleepy",
+        "ar": "نعسان",
+        "emoji": "😴"
+      },
+      {
+        "en": "tired",
+        "ar": "متعب",
+        "emoji": "😫"
+      },
+      {
+        "en": "hungry",
+        "ar": "جائع",
+        "emoji": "🍽️"
+      }
+    ],
+    "phonics": [
+      "j",
+      "v",
+      "w",
+      "x"
+    ],
+    "sight": [
+      "if",
+      "off",
+      "you",
+      "my",
+      "they",
+      "for"
+    ],
+    "sentences": [
+      "I am happy.",
+      "I am tired."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "What Are We Wearing?",
+    "words": [
+      {
+        "en": "trousers",
+        "ar": "بنطلون",
+        "emoji": "👖"
+      },
+      {
+        "en": "dress",
+        "ar": "فستان",
+        "emoji": "👗"
+      },
+      {
+        "en": "skirt",
+        "ar": "تنورة",
+        "emoji": "👗"
+      },
+      {
+        "en": "shirt",
+        "ar": "قميص",
+        "emoji": "👔"
+      },
+      {
+        "en": "t-shirt",
+        "ar": "تي شيرت",
+        "emoji": "👕"
+      },
+      {
+        "en": "shoes",
+        "ar": "أحذية",
+        "emoji": "👟"
+      },
+      {
+        "en": "sandals",
+        "ar": "صنادل",
+        "emoji": "🩴"
+      },
+      {
+        "en": "hat",
+        "ar": "قبعة",
+        "emoji": "🧢"
+      },
+      {
+        "en": "shorts",
+        "ar": "شورت",
+        "emoji": "🩳"
+      },
+      {
+        "en": "wear",
+        "ar": "يرتدي",
+        "emoji": "🧥"
+      }
+    ],
+    "phonics": [
+      "y",
+      "z",
+      "q"
+    ],
+    "sight": [
+      "will",
+      "all",
+      "went",
+      "was",
+      "from",
+      "help"
+    ],
+    "sentences": [
+      "This is a hat.",
+      "This is a red hat."
+    ]
+  }
+]
